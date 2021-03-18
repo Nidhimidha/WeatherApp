@@ -1,0 +1,7 @@
+{
+  "openWeather" : "https://api.openweathermap.org/data/2.5/weather?q=",
+  "reverseGeo" : "https://maps.googleapis.com/maps/api/geocode/json?sensor=true&latlng=",
+  "openWeatherForecast" : "https://api.openweathermap.org/data/2.5/forecast?q=",
+  "reverseGeoKey": "AIzaSyDxppOEMq30L0vyZBXDAPRKnXn_cu3WuYo",
+  "openWeatherKey": "70c690258e8126dd0df3466ef7c12e13"
+}

@@ -1,0 +1,91 @@
+body {
+  width: 100%;
+  height: 100vh;
+  background: url('./assets/img/bg.jpeg') no-repeat center center/cover;
+}
+.navbar{
+  color: white;
+  font-size: 1.5rem;
+  line-height: 30px;
+}
+.navbar i{
+  color: salmon;
+}
+.current {
+  position: relative;
+}
+.center {
+  margin-top: 50px;
+  width: 100%;
+  height: 100vh;
+}
+.common {
+  display: flex;
+  justify-content: center;
+}
+.currentInner {
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  margin: auto;
+  font-size: 2rem;
+  font-family: 'Raleway', sans-serif;
+  color: salmon;
+  font-weight: 700;
+}
+.form{
+  margin-top: 10px;
+}
+.form input[type='text'] {
+  display: block;
+  width: 100%;
+  padding: 0.4rem;
+  font-size: 1.2rem;
+  border: 1px solid #ccc;
+}
+.form div {
+  display: flex;
+  width: 30%;
+  margin: auto;
+}
+.icon {
+  padding: 15px;
+  background: salmon;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+.buttonClass {
+  background: none;
+  padding: 0px;
+  border: none;
+}
+.forecastButton {
+  background-color: salmon;
+  border: none;
+  border-radius: 10%;
+  width: 100px;
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+
+}
+.currentWeather {
+  margin-top: 40px;
+  color: white;
+  font-size: 150px;
+  font-family: 'Handlee', cursive;
+}
+.button-display, .button-display:hover{
+  font: bold 25px Arial;
+  text-decoration: none;
+  background-color: salmon;
+  border-radius: 10%;
+  color: white;
+  padding: 5px 10px 5px 10px;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
